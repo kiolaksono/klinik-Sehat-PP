@@ -1,0 +1,27 @@
+[
+  {
+    "fullName": "Kamil Johan",
+    "dateOfBorn": "1990-01-01",
+    "avatar": "path/to/john_doe.jpg"
+  },
+  {
+    "fullName": "Nur Wati",
+    "dateOfBorn": "1985-05-15",
+    "avatar": "path/to/jane_smith.jpg"
+  },
+  {
+    "fullName": "Alice",
+    "dateOfBorn": "1978-09-20",
+    "avatar": "path/to/alice_johnson.jpg"
+  },
+  {
+    "fullName": "Willy Agung",
+    "dateOfBorn": "1995-12-25",
+    "avatar": "path/to/bob_williams.jpg"
+  },
+  {
+    "fullName": "Eve Brown",
+    "dateOfBorn": "1982-03-08",
+    "avatar": "path/to/eve_brown.jpg"
+  }
+]

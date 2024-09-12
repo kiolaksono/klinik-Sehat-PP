@@ -1,0 +1,22 @@
+[
+    {
+        "deseaseName":"Asma",
+        "description":"Tidak menular"
+    },
+    {
+        "deseaseName":"Bronkitis Kronis",
+        "description":"Tidak menular"
+    },
+    {
+        "deseaseName":"Tuberculosis (TBC)",
+        "description":"Menular"
+    },
+    {
+        "deseaseName":"Penyakit Paru Obstruktif Kronis",
+        "description":"Tidak menular"
+    },
+    {
+        "deseaseName":"Batuk Rejan",
+        "description":"Sangat Menular"
+    }
+]

@@ -18,7 +18,6 @@
         "secondSymp": "Demam",
         "thirdSymp": "Keringat malam",
         "fourthSymp": "Penurunan berat badan",
-        "diseaseName": "Tuberkulosis",
         "DeseaseId": 3
     },
     {
@@ -26,7 +25,6 @@
         "secondSymp": "Sesak napas",
         "thirdSymp": "Hidung berair",
         "fourthSymp": "Muntah setelah batuk",
-        "diseaseName": "Batuk Rejan",
         "DeseaseId": 5
     },
     {

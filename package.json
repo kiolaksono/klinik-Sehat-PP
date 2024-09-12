@@ -18,5 +18,13 @@
   "devDependencies": {
     "nodemon": "^3.1.4",
     "sequelize-cli": "^6.6.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiolaksono/klinik-Sehat-PP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kiolaksono/klinik-Sehat-PP/issues"
+  },
+  "homepage": "https://github.com/kiolaksono/klinik-Sehat-PP#readme"
 }

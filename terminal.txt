@@ -1,0 +1,18 @@
+npx sequelize-cli model:generate --name Users --attributes username:string,password:string,email:string
+
+npx sequelize-cli model:generate --name UserProfile --attributes firstName:string,lastName:string,avatar:string,UserId:integer
+
+npx sequelize-cli model:generate --name Desease --attributes deseaseName:string,description:text
+
+npx sequelize-cli model:generate --name Symptom --attributes firstSymp:string,secondSymp:string,thirdSymp:string,fourthSymp:string,DeseaseId:integer
+
+npx sequelize-cli model:generate --name Medicine --attributes medName:string,production:string,expiredDate:date,DeseaseId:integer
+
+npx sequelize-cli model:generate --name Doctor --attributes fullName:string,dateOfBorn:date,avatar:string
+
+npx sequelize-cli model:generate --name Consultation --attributes UserId:integer,DoctorId:integer,DeseaseId:integer,dateOfConsuldate
+
+npx sequelize-cli migration:generate --name addColumnConsultation-notes
+
+
+npx sequelize-cli seed:init

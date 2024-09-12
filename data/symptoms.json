@@ -1,0 +1,40 @@
+[
+    {
+        "firstSymp": "Batuk kering",
+        "secondSymp": "Sesak napas",
+        "thirdSymp": "Nyeri dada",
+        "fourthSymp": "Demam",
+        "DeseaseId": 1
+    },
+    {
+        "firstSymp": "Batuk berdahak",
+        "secondSymp": "Sesak napas",
+        "thirdSymp": "Demam ringan",
+        "fourthSymp": "Bunyi mengi saat bernapas",
+        "DeseaseId": 2
+    },
+    {
+        "firstSymp": "Batuk darah",
+        "secondSymp": "Demam",
+        "thirdSymp": "Keringat malam",
+        "fourthSymp": "Penurunan berat badan",
+        "diseaseName": "Tuberkulosis",
+        "DeseaseId": 3
+    },
+    {
+        "firstSymp": "Batuk keras",
+        "secondSymp": "Sesak napas",
+        "thirdSymp": "Hidung berair",
+        "fourthSymp": "Muntah setelah batuk",
+        "diseaseName": "Batuk Rejan",
+        "DeseaseId": 5
+    },
+    {
+        "firstSymp": "Sesak napas saat aktivitas",
+        "secondSymp": "Batuk kronis",
+        "thirdSymp": "Produksi dahak berlebih",
+        "fourthSymp": "Mengi",
+        "DeseaseId": 4
+    }
+]
+  

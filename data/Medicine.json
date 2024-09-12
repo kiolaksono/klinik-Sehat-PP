@@ -1,0 +1,185 @@
+[
+    {
+      "medName": "Erythromycin",
+      "production": "PT Sanbe Farma",
+      "expiredDate": "2025-10-12",
+      "DeseaseId": 5
+    },
+    {
+      "medName": "Azithromycin",
+      "production": "PT Kalbe Farma",
+      "expiredDate": "2026-05-18",
+      "DeseaseId": 5
+    },
+    {
+      "medName": "Clarithromycin",
+      "production": "PT Dexa Medica",
+      "expiredDate": "2025-12-22",
+      "DeseaseId": 5
+    },
+    {
+      "medName": "Cotrimoxazole",
+      "production": "PT Kimia Farma",
+      "expiredDate": "2024-09-30",
+      "DeseaseId": 5
+    },
+    {
+      "medName": "Amoxicillin",
+      "production": "PT Meiji",
+      "expiredDate": "2026-03-14",
+      "DeseaseId": 5
+    },
+
+    {
+        "medName": "Rifampicin",
+        "production": "PT Kimia Farma",
+        "expiredDate": "2025-11-15",
+        "DeseaseId": 3
+    },
+    {
+        "medName": "Isoniazid",
+        "production": "PT Sanbe Farma",
+        "expiredDate": "2026-04-12",
+        "DeseaseId": 3
+    },
+    {
+        "medName": "Pyrazinamide",
+        "production": "PT Kalbe Farma",
+        "expiredDate": "2025-09-19",
+        "DeseaseId": 3
+    },
+    {
+        "medName": "Ethambutol",
+        "production": "PT Dexa Medica",
+        "expiredDate": "2025-06-22",
+        "DeseaseId": 3
+    },
+    {
+        "medName": "Streptomycin",
+        "production": "PT Bernofarm",
+        "expiredDate": "2024-12-31",
+        "DeseaseId": 3
+    },
+    {
+        "medName": "Levofloxacin",
+        "production": "PT Phapros",
+        "expiredDate": "2026-03-07",
+        "DeseaseId": 3
+    },
+    {
+        "medName": "Moxifloxacin",
+        "production": "PT Meiji",
+        "expiredDate": "2025-08-19",
+        "DeseaseId": 3
+    },
+    {
+        "medName": "Kanamycin",
+        "production": "PT Kimia Farma",
+        "expiredDate": "2026-02-14",
+        "DeseaseId": 3
+    },
+    {
+        "medName": "Capreomycin",
+        "production": "PT Bernofarm",
+        "expiredDate": "2024-10-27",
+        "DeseaseId": 3
+    },
+    {
+        "medName": "Ethionamide",
+        "production": "PT Dexa Medica",
+        "expiredDate": "2026-01-11",
+        "DeseaseId":3
+    },
+    
+    {
+        "medName": "Salbutamol",
+        "production": "PT Kalbe Farma",
+        "expiredDate": "2025-07-14",
+        "DeseaseId": 1
+    },
+    {
+        "medName": "Budesonide",
+        "production": "PT Dexa Medica",
+        "expiredDate": "2026-03-05",
+        "DeseaseId": 1
+    },
+    {
+        "medName": "Formoterol",
+        "production": "PT Sanbe Farma",
+        "expiredDate": "2025-12-22",
+        "DeseaseId": 1
+    },
+    {
+        "medName": "Fluticasone",
+        "production": "PT Kimia Farma",
+        "expiredDate": "2024-11-19",
+        "DeseaseId": 1
+    },
+    {
+        "medName": "Montelukast",
+        "production": "PT Phapros",
+        "expiredDate": "2026-08-08",
+        "DeseaseId": 1
+    },
+    {
+        "medName": "Ipratropium Bromide",
+        "production": "PT Kalbe Farma",
+        "expiredDate": "2025-09-15",
+        "DeseaseId": 2
+    },
+    {
+        "medName": "Tiotropium",
+        "production": "PT Dexa Medica",
+        "expiredDate": "2026-04-10",
+        "DeseaseId": 2
+    },
+    {
+        "medName": "Salbutamol",
+        "production": "PT Sanbe Farma",
+        "expiredDate": "2025-08-25",
+        "DeseaseId": 2
+    },
+    {
+        "medName": "Formoterol",
+        "production": "PT Kimia Farma",
+        "expiredDate": "2024-12-20",
+        "DeseaseId": 2
+    },
+    {
+        "medName": "Theophylline",
+        "production": "PT Phapros",
+        "expiredDate": "2026-02-14",
+        "DeseaseId": 2
+    },
+    {
+        "medName": "Tiotropium",
+        "production": "PT Kalbe Farma",
+        "expiredDate": "2025-11-20",
+        "DeseaseId": 4
+    },
+    {
+        "medName": "Ipratropium Bromide",
+        "production": "PT Dexa Medica",
+        "expiredDate": "2026-05-18",
+        "DeseaseId": 4
+    },
+    {
+        "medName": "Formoterol",
+        "production": "PT Sanbe Farma",
+        "expiredDate": "2025-07-22",
+        "DeseaseId": 4
+    },
+    {
+        "medName": "Salmeterol",
+        "production": "PT Kimia Farma",
+        "expiredDate": "2024-09-30",
+        "DeseaseId": 4
+    },
+    {
+        "medName": "Theophylline",
+        "production": "PT Phapros",
+        "expiredDate": "2026-04-12",
+        "DeseaseId": 4
+    }
+]
+  

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Klinik Sehat</title>
+</head>
+
+<body>
+
+ <%- include('partials/_navbarAdmin') %>
+
+  <% if(del){ %>
+    <p style="text-align: center; color:blue"><%= del %></p>
+  <%}%>
+
+  <table class="table caption-top">
+    <thead>
+      <tr>
+        <th scope="col">No</th>
+        <th scope="col">Nama Pasien</th>
+        <th scope="col">Nama Dokter</th>
+        <th scope="col">Penyakit yang diderita</th>
+        <th scope="col">Tanggal Konsultasi</th>
+        <th scope="col">Keterangan</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% data.forEach((el, idx)=> { %>
+        <tr>
+          <td><%= idx+1 %></td>
+          <td><%= el.User.UserProfile.firstName %> <%= el.User.UserProfile.lastName %></td>
+          <td><%= el.Doctor.fullName %></td>
+          <td><%= el.Desease.deseaseName %></td>
+          <td><%= formatDate(el.dateOfConsul) %></td>
+          <td><p><%= el.notes %></p></td>
+          <td>
+            <a href="/<%= el.id%>/edit">Edit</a>
+            <a href="/<%= el.id%>/delete">Delete</a>
+        </td>
+        </tr>
+        <% }) %>
+    </tbody>
+  </table>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

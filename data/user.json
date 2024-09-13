@@ -1,27 +1,38 @@
 [
     {
-        "username":"hani",
+        "username":"foxi",
+        "email":"armilaninda@gmail.com",
         "password":"Gbrte765",
-        "email":"hani@gmail.com"
+        "role":"admin"
+    },
+    {
+        "username":"hani",
+        "email":"hani@gmail.com",
+        "password":"Gbrte765",
+        "role":"user"
     },
     {
         "username":"deni",
+        "email":"deniapa@gmail.com",
         "password":"Juytr987",
-        "email":"deniapa@gmail.com"
+        "role":"user"
     },
     {
         "username":"rehan",
+        "email":"rehandong@gmail.com",
         "password":"Lasjh923",
-        "email":"rehandong@gmail.com"
+        "role":"user"
     },
     {
         "username":"ira",
+        "email":"Irahahaha@gmail.com",
         "password":"Jkjhj986",
-        "email":"Irahahaha@gmail.com"
+        "role":"user"
     },
     {
         "username":"anto",
+        "email":"antodoang@gmail.com",
         "password":"Hhjhs986",
-        "email":"antodoang@gmail.com"
+        "role":"user"
     }
 ]

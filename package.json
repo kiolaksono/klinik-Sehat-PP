@@ -10,13 +10,23 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "ejs": "^3.1.10",
     "express": "^4.21.0",
+    "express-session": "^1.18.0",
     "pg": "^8.12.0",
     "sequelize": "^6.37.3"
   },
   "devDependencies": {
     "nodemon": "^3.1.4",
     "sequelize-cli": "^6.6.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiolaksono/klinik-Sehat-PP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kiolaksono/klinik-Sehat-PP/issues"
+  },
+  "homepage": "https://github.com/kiolaksono/klinik-Sehat-PP#readme"
 }

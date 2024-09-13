@@ -14,5 +14,10 @@ npx sequelize-cli model:generate --name Consultation --attributes UserId:integer
 
 npx sequelize-cli migration:generate --name addColumnConsultation-notes
 
+npx sequelize-cli seed:generate --name Desease
+
+npx sequelize-cli seed:generate --name Symptom
+
+npx sequelize-cli seed:generate --name Medicine
 
 npx sequelize-cli seed:init

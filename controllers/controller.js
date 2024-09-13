@@ -243,7 +243,7 @@ class Controller{
                 const isValidPassword = await bcrypt.compare(password, data.password);
     
                 if (!isValidPassword) {
-                    return res.render('login', { message: 'Username atau password salah!' });
+                    return res.redirect('/login?error=Username/password salah');
                   }
     
                   
@@ -258,6 +258,7 @@ class Controller{
                 }
 
             }else{
+                res.redirect('/login?error=Username/password salah')
             }
             // res.send(data)
             // res.render('login')

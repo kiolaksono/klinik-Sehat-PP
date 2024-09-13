@@ -300,57 +300,66 @@ class Controller{
     }
 
     static async getEditAdmin(req,res){
-        let{id} = req.params
-
-        let dataDoc = await Doctor.findAll()
-        let dataDesease = await Desease.findAll()
-
-        let data = await Consultation.findOne(
-            {where:{id},
-            attributes:{exclude:["createdAt","updatedAt"]},
-            include: [
-                {
-                    model:User,
-                    attributes:{exclude:["createdAt","updatedAt"]},
-                    include:{
-                        model:UserProfile,
-                        attributes:{exclude:["createdAt","updatedAt"]},        
+        try {
+            let{id} = req.params
+    
+            let dataDoc = await Doctor.findAll()
+            let dataDesease = await Desease.findAll()
+    
+            let data = await Consultation.findOne(
+                {where:{id},
+                attributes:{exclude:["createdAt","updatedAt"]},
+                include: [
+                    {
+                        model:User,
+                        attributes:{exclude:["createdAt","updatedAt"]},
+                        include:{
+                            model:UserProfile,
+                            attributes:{exclude:["createdAt","updatedAt"]},        
+                        }
+                    },
+                    {
+                        model: Doctor,
+                        attributes:{exclude:["createdAt","updatedAt"]},
+                    },
+                    {
+                        model: Desease,
+                        attributes:{exclude:["createdAt","updatedAt"]},
+                        include:[
+                            {
+                            model: Symptom,
+                            attributes:{exclude:["createdAt","updatedAt"]},
+                            },
+                            {
+                            model: Medicine,
+                            attributes:{exclude:["createdAt","updatedAt"]},
+                            },
+                        ]
                     }
-                },
-                {
-                    model: Doctor,
-                    attributes:{exclude:["createdAt","updatedAt"]},
-                },
-                {
-                    model: Desease,
-                    attributes:{exclude:["createdAt","updatedAt"]},
-                    include:[
-                        {
-                        model: Symptom,
-                        attributes:{exclude:["createdAt","updatedAt"]},
-                        },
-                        {
-                        model: Medicine,
-                        attributes:{exclude:["createdAt","updatedAt"]},
-                        },
-                    ]
-                }
-            ],
-        })
-
-        // res.send({data, dataDoc, dataDesease})
-        res.render('editAdmin', {data, dataDoc, dataDesease})
+                ],
+            })
+    
+            // res.send({data, dataDoc, dataDesease})
+            res.render('editAdmin', {data, dataDoc, dataDesease})
+            
+        } catch (error) {
+            res.send(error.message)
+        }
 
     }
 
     static async postEditAdmin(req,res){
-
-        let {id} = req.params
-        let {DoctorId} = req.body
-
-        await Consultation.update({DoctorId}, {where:{id}})
-
-        res.redirect(`/?notif="Data berhasil diperbarui`)
+        try {
+            let {id} = req.params
+            let {DoctorId} = req.body
+    
+            await Consultation.update({DoctorId}, {where:{id}})
+    
+            res.redirect(`/?notif="Data berhasil diperbarui`)
+            
+        } catch (error) {
+            res.send(error.message)
+        }
 
     }
 }

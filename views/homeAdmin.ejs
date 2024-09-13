@@ -21,6 +21,14 @@
     <p style="text-align: center; color:blue"><%= del %></p>
   <%}%>
 
+  <form method="get" action="/">
+    <div class="mb-3">
+      <label for="search" class="form-label">Nama Pasien</label>
+      <input type="text" class="form-control" id="search" name="search">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
   <table class="table caption-top">
     <thead>
       <tr>

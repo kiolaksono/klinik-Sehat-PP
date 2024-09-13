@@ -74,8 +74,10 @@ module.exports = (sequelize, DataTypes) => {
         notEmpty:{
           msg:"Mohon pilih tanggal terlebih dahulu!"
         },
-
       }
+    },
+    notes:{
+      type:DataTypes.TEXT
     }
   }, {
     sequelize,
